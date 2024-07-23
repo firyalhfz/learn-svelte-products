@@ -1,0 +1,54 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Product 1",
+      "price": 700,
+      "description": "Description 1"
+    },
+    {
+      "id": 2,
+      "title": "Product 2",
+      "price": 1050,
+      "description": "Description 2"
+    },
+    {
+      "id": 3,
+      "title": "Product 3",
+      "price": 2600,
+      "description": "Description 3"
+    }
+  ],
+  "postcodes": [
+    {
+      "postcode": "10001",
+      "lat": 40.7128,
+      "long": -74.006,
+      "townCity": "New York",
+      "country": "USA",
+      "language": "English",
+      "population": 8419600,
+      "timezone": "Eastern Time Zone"
+    },
+    {
+      "postcode": "WC2N 5DU",
+      "lat": 51.5074,
+      "long": -0.1278,
+      "townCity": "London",
+      "country": "UK",
+      "language": "English",
+      "population": 8982000,
+      "timezone": "Greenwich Mean Time"
+    },
+    {
+      "postcode": "75001",
+      "lat": 48.8566,
+      "long": 2.3522,
+      "townCity": "Paris",
+      "country": "France",
+      "language": "French",
+      "population": 2148000,
+      "timezone": "Central European Time"
+    }
+  ]
+}
