@@ -12,10 +12,12 @@ export const load = async (serverLoadEvent) => {
     throw redirect(307, '/products');
   }
   const title = 'Product Details';
+  const notification = 'End of season sale! 50% off';
   const response = await fetch(`http://localhost:4000/products/${productId}`);
   const product = await response.json();
   return {
     title,
-    product
+    product,
+    notification
   };
 };
