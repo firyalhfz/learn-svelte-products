@@ -39,6 +39,23 @@
       "description": "Description 3"
     }
   ],
+  "most-active-stock": {
+    "symbol": "STOCK A",
+    "price": 400
+  },
+  "top-gaining-stock": {
+    "symbol": "STOCK B",
+    "price": 700
+  },
+  "top-losing-stock": {
+    "symbol": "STOCK Ce",
+    "price": 3100
+  },
+  "stocks": [
+    { "symbol": "STOCK D", "price": 100 },
+    { "symbol": "STOCK E", "price": 150 },
+    { "symbol": "STOCK F", "price": 210 }
+  ],
   "postcodes": [
     {
       "postcode": "10001",
